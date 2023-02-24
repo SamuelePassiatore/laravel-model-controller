@@ -1,19 +1,19 @@
 header .nav-link {
 
     &:hover {
-        color: white;
+        color: $white;
     }
 }
 
 .current {
-    color: yellow;
+    color: $yellow;
 }
 
 .current-1 {
-    color: red;
+    color: $red;
 }
 
 .current-2 {
-    color: green;
+    color: $green;
 }
 

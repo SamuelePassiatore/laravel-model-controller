@@ -1,5 +1,5 @@
 section.movies-section {
-    background-color: yellow;
+    background-color: $yellow;
 
     .card {
         height: 240px;
@@ -20,7 +20,7 @@ section.movies-section {
     }
 
     .colored {
-        color: yellow;
+        color: $yellow;
     }
 
 }
