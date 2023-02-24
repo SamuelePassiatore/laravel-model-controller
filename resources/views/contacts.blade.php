@@ -3,5 +3,8 @@
 @section('title', 'About')
 
 @section('main-content')
-    <h1>Contacts section</h1>
+    <section class="contacts-section d-flex justify-content-center align-items-center">
+        <h1>Contacts section</h1>
+    </section>
+
 @endsection
