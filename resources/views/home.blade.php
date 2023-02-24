@@ -5,7 +5,7 @@
 @section('main-content')
     <section class="movies-section">
         <div class="container">
-            <h1 class="text-center py-3">Home</h1>
+            <h1 class="text-center py-4">Home</h1>
             <div class="row">
                 @foreach ($movies as $movie)
                     @include('includes.cards')
