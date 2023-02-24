@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('main-content')
-    <section class="movies">
+    <section class="movies-section">
         <div class="container">
             <h1 class="text-center py-3">Home</h1>
             <div class="row">
