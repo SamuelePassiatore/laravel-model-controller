@@ -1,0 +1,10 @@
+header .nav-link {
+    &:hover {
+        color: yellow;
+    }
+}
+
+.current {
+    color: yellow;
+}
+

@@ -5,17 +5,17 @@
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link @if (request()->routeIs('home')) active @endif"
+                        <a class="nav-link @if (request()->routeIs('home')) current @endif"
                             href="{{ url('/') }}">Home
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if (request()->routeIs('about')) active @endif"
+                        <a class="nav-link @if (request()->routeIs('about')) current @endif"
                             href="{{ route('about') }}">About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if (request()->routeIs('contacts')) active @endif"
+                        <a class="nav-link @if (request()->routeIs('contacts')) current @endif"
                             href="{{ route('contacts') }}">Contacts
                         </a>
                     </li>
