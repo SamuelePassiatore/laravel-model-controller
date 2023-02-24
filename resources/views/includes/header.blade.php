@@ -10,12 +10,12 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if (request()->routeIs('about')) current @endif"
+                        <a class="nav-link @if (request()->routeIs('about')) current-1 @endif"
                             href="{{ route('about') }}">About
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link @if (request()->routeIs('contacts')) current @endif"
+                        <a class="nav-link @if (request()->routeIs('contacts')) current-2 @endif"
                             href="{{ route('contacts') }}">Contacts
                         </a>
                     </li>
