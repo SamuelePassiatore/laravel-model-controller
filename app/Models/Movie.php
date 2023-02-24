@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Movie extends Model
 {
     use HasFactory;
-    private $table = 'laravel_model_controller';
+    public $timestamps = false;
 }

@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Movie;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
     public function home()
     {
-        return view('home');
+        $movies = Movie::all();
+        dd($movies);
+        return view('home', compact('movies'));
     }
 }
